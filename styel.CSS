@@ -1,0 +1,121 @@
+h1{            
+    color:rgb(247, 244, 244);
+font-style: italic;
+margin: 20px;
+padding: 2px;
+border: solid;
+border-radius:20px
+
+
+                }
+
+.Header{
+    background-color: rgb(25, 100, 238);
+
+    display:flex;
+    justify-content : center
+}     
+
+h2{
+ 
+    color: rgb(9, 10, 10);
+    font-style: initial;
+
+}
+
+.grid{
+
+    display:flex;
+flex-wrap:wrap ;
+justify-content:space-between ;
+
+}
+
+.item{
+position: relative;
+
+
+
+}
+
+.item p{
+position: relative;
+
+}
+
+.item:hover p{
+    opacity: 0.6;
+    transform: scale(0.9);
+    color:red;
+
+}
+.item:hover img{
+    opacity: 0.8;
+    transform:scale(0.9) ;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.LOGO:hover img{
+    opacity: 0.8;
+    clip: rect(10px, 50px, 30px, 10px);
+    
+}
+
+.b1{
+margin-top: 20px;
+color: cornflowerblue;
+background-color: darkblue;
+}
+
+.b2{
+
+    margin-top: 20px;
+color: cornflowerblue;
+background-color: darkblue;
+}
+
+.audio audio{
+
+    padding: 100px;
+  
+}
+
+
+.menu a{
+
+    margin-bottom: 50px;
+    margin-left: 50px;
+justify-content: space-evenly;
+border-color: solid dotted dashed double; }
+
+
+a :link {
+
+color:red
+
+}
+
+a:visited{
+    color:blue ;
+}
+
+
+
+.VID video{    
+
+width: 60%;
+height: 50%;
+margin-top: 100px;
+margin-right: 500px;
+}
+
+
+.VID p{
+    opacity: 100;
+    font-size: 30px;
+    color:black;
+}
